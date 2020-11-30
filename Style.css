@@ -1,0 +1,66 @@
+ul{
+
+   list-style-type: none;
+   border: 1px solid white;
+   background-color: rgb(73, 71, 71);
+   overflow: hidden;
+}
+li{
+    float: left;
+}
+.nav_right{
+    float: right;
+}
+li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+
+
+}
+li a:hover{
+    background-color: darkgray;
+
+}
+li a:active{
+    background-color: green;
+    color: white;
+
+}
+div{
+    border: 3px dotted;
+    border-radius: 15px;
+    box-shadow: -15px -10px 0px dimgray;
+    background-image: radial-gradient(white,black);
+    
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+thead{
+    background-color: cornsilk;
+    color: darkgreen;
+
+}
+thead tr{
+    text-align: center;
+
+}
+tbody tr:nth-child(odd){
+    background-color: lightblue;
+}
+h1{
+    text-align: center;
+}
+body {
+    background-color: rgba(152, 158, 163, 0.664) ;
+    
+  }
